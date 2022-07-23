@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+   
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!--Social Media Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Hello, world!S.C.C</title>
+  </head>
+  <body>
+    <!--Navbar component-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="/SourceCodewBoot/imgs/Source_Code_Logo_PNG.png" alt="Source code club logo" style="height: 2.5rem; margin: 0%; padding: 0%;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav mx-2">
+          <li class="nav-item">
+            <a class="nav-link" href="https://valenciacollege.edu/" target="_blank">Valencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://discord.gg/2rmVgnBD" target="_blank">Discord</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu  mr-4" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Coming soon!</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!--Jumbotron component-->
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="background-image:url(/SourceCodewBoot/imgs/codingbg.jpg); background-size: cover;"
+    >
+      <div id="jumboHead" class="container-fluid text-white my-xl-5" >
+        <h1 class="display-3 bg-dark py-2 px-3 rounded text-uppercase" style="width: fit-content;">Source Code Club</h1>
+        <h5 class="bg-dark font-weight-light my-4 p-2 rounded " style="width: fit-content">
+          At Valencia College
+        </h5>
+      </div>
+    </div>
+
+    <!--Container for cards-->
+    <div id="container" class="container-fluid">
+      <div class="row justify-content-center pb-5">
+        <div class="col col-11 col-md-6  col-xl-3">
+          <div id="card" class="card bg-dark text-white text-center my-3">
+            <div class="card-body">
+              <h4 class="card-title py-3">About Our Club</h4>
+            <hr color="gray">
+              <p class="card-text p-3">Our purpose in running the Source Code Club is to give students learning any type of coding/programming, a community to turn to! Our meetings include discussions and lessons on a variety of programming concepts. We also now have an Instagram account! Click below to check us out!</p>
+              <button type="button" class="btn btn-primary px-4 my-3" onClick="javascript:window.open('https://www.instagram.com/sourcecodevc/?hl=en', '_blank');">Follow us</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-11 col-md-6 col-xl-3">
+          <div id="card" class="card bg-dark text-white text-center my-3">
+            <div class="card-body">
+              <h4 class="card-title py-3">How to join</h4>
+            <hr color="gray">
+              <p class="card-text p-3">We are always Looking for new members! Our club mostly operates through our Discord server so joining is easy! Here we have many different channels for all members to enjoy and interact with other members! All club meetings are hosted on the Discord as well!</p>
+              <button type="button" class="btn btn-primary px-4 my-3" onClick="javascript:window.open('https://discord.gg/2rmVgnBD', '_blank');">Join us!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-11 col-md-6  col-xl-3">
+          <div id="card" class="card bg-dark text-white text-center my-3">
+            <div class="card-body">
+              <h4 class="card-title py-3">Meeting schedule</h4>
+            <hr color="gray">
+              <p class="card-text p-3">All meetings take place once a week on our Discord server! We meet on Thursdays from 6:00 to 8:00 PM. While we are currently on break for the summer semester, we will be returning this Fall for all new meetings! Meetings will also be recorded and posted below for your convenience!</p>
+              <button type="button" class="btn btn-secondary px-4 my-3" disabled>Coming soon</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr color="gray">
+
+
+
+      <!--Footer section-->
+      <footer>
+        <div class="row">
+         <h6 class="text-white">Helpful Links</h6>
+        </div>
+        <div class="row">
+          <a href="https://valenciacollege.edu/admissions/apply.php" class="text-decoration-none" target="_blank">Register at Valencia</a>
+        </div>
+        <div class="row">
+          <a href="https://catalog.valenciacollege.edu/degrees/associateinarts/degreepathways/computerscience/" class="text-decoration-none" target="_blank">Computer Science Programs</a>
+        </div>
+        <div class="row">
+          <a href="https://flatironschool.com/blog/reasons-why-you-should-learn-computer-programming/#:~:text=Learning%20to%20code%20not%20only,languages%20to%20apply%20your%20knowledge." class="text-decoration-none" target="_blank">Reasons to Start Programming</a>
+        </div>
+        <div class="row">
+          <a href="https://www.w3schools.com/" class="text-decoration-none" target="_blank">Resources</a>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-1">
+            <a href="https://www.instagram.com/sourcecodevc/?hl=en" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
